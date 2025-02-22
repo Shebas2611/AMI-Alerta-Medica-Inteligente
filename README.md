@@ -1,5 +1,7 @@
 AMI - Alerta Médica Inteligente
 
+---
+
 Descripción
 
 AMI es un sistema de detección de fatiga y emergencias médicas en conductores basado en ESP-32-CAM. Utiliza tecnologías de reconocimiento facial y ocular para detectar signos de fatiga, convulsiones o parálisis y emitir alertas para prevenir accidentes.
