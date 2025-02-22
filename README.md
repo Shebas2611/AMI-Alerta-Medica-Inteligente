@@ -4,13 +4,19 @@ Descripción
 
 AMI es un sistema de detección de fatiga y emergencias médicas en conductores basado en ESP-32-CAM. Utiliza tecnologías de reconocimiento facial y ocular para detectar signos de fatiga, convulsiones o parálisis y emitir alertas para prevenir accidentes.
 
+---
+
 📌 Características
 
 ✅ Detección de fatiga y emergencias: Identifica signos de cansancio y crisis médicas en tiempo real.✅ Alertas inmediatas: Emite señales sonoras y puede contactar con emergencias.✅ Integración con ESP-32-CAM: Uso de reconocimiento facial y de ojos mediante OpenCV.✅ Eficiencia energética: Diseñado para operar con bajo consumo de energía en vehículos.
 
+---
+
 🚀 Tecnologías Utilizadas
 
 🔹 Hardware: ESP-32-CAM, altavoces, sensores.🔹 Software: Python, OpenCV, Arduino IDE.🔹 Diseño: Impresión 3D para la carcasa del dispositivo.
+
+---
 
 🔧 Instalación
 
