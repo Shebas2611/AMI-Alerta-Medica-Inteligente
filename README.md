@@ -4,31 +4,50 @@ Descripción
 
 AMI es un sistema de detección de fatiga y emergencias médicas en conductores basado en ESP-32-CAM. Utiliza tecnologías de reconocimiento facial y ocular para detectar signos de fatiga, convulsiones o parálisis y emitir alertas para prevenir accidentes.
 
-Características
+📌 Características
 
-Detección de fatiga y emergencias: Identifica signos de cansancio y crisis médicas en tiempo real.
+✅ Detección de fatiga y emergencias: Identifica signos de cansancio y crisis médicas en tiempo real.✅ Alertas inmediatas: Emite señales sonoras y puede contactar con emergencias.✅ Integración con ESP-32-CAM: Uso de reconocimiento facial y de ojos mediante OpenCV.✅ Eficiencia energética: Diseñado para operar con bajo consumo de energía en vehículos.
 
-Alertas inmediatas: Emite señales sonoras y puede contactar con emergencias.
+🚀 Tecnologías Utilizadas
 
-Integración con ESP-32-CAM: Uso de reconocimiento facial y de ojos mediante OpenCV.
+🔹 Hardware: ESP-32-CAM, altavoces, sensores.🔹 Software: Python, OpenCV, Arduino IDE.🔹 Diseño: Impresión 3D para la carcasa del dispositivo.
 
-Eficiencia energética: Diseñado para operar con bajo consumo de energía en vehículos.
+🔧 Instalación
 
-Tecnologías Utilizadas
+1️⃣ Clonar el repositorio
 
-Hardware: ESP-32-CAM, altavoces, sensores.
+git clone https://github.com/TU-USUARIO/AMI-AlertaMedicaInteligente.git
+cd AMI-AlertaMedicaInteligente
 
-Software: Python, OpenCV, Arduino IDE.
+2️⃣ Instalar dependencias necesarias (Python y OpenCV)
 
-Diseño: Impresión 3D para la carcasa del dispositivo.
+Si el sistema usa procesamiento local, instala:
 
+pip install opencv-python numpy
 
-Uso
+3️⃣ Subir el código a la ESP-32-CAM
 
-Conectar el dispositivo al vehículo.
+Descargar Arduino IDE: Arduino
 
-Asegurar que la cámara tiene una vista clara del conductor.
+Configurar Arduino IDE:
 
-Encender el sistema y dejar que monitoree en segundo plano.
+Archivo > Preferencias: Agregar URL:
 
+https://dl.espressif.com/dl/package_esp32_index.json
+
+Herramientas > Placa > Gestor de Tarjetas: Buscar e instalar ESP32.
+
+Conectar ESP-32-CAM (usar adaptador USB a serial FTDI):
+
+GND → GND, VCC → 5V, TX → RX, RX → TX, IO0 → GND (modo programación).
+
+Seleccionar en Arduino IDE:
+
+Placa: AI-Thinker ESP32-CAM
+
+Puerto: Seleccionar el correcto.
+
+Subir el código y presionar RESET si hay errores.
+
+Obtener la IP desde el Monitor Serie y acceder desde el navegador.
 
